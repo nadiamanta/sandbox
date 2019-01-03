@@ -1,0 +1,21 @@
+{
+    "name": "nadia/composersb",
+    "description": "Composer sandbox for training",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nadia Hussain",
+            "email": "nadia@mantaraymedia.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24",
+        "drupal-composer/drupal-scaffold": "^2.5"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    }
+}
