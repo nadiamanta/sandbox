@@ -1,0 +1,32 @@
+uuid: a97fcec6-ee68-43f0-b7a4-4f2460d03cea
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slide
+    - field.field.block_content.slide.body
+  module:
+    - text
+id: block_content.slide.default
+targetEntityType: block_content
+bundle: slide
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 64f6073c-c2a8-471f-afba-55e79faece19
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slide
+    - field.field.block_content.slide.body
+  module:
+    - text
+id: block_content.slide.default
+targetEntityType: block_content
+bundle: slide
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

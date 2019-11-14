@@ -1,0 +1,25 @@
+uuid: 92cb1584-e4fc-4523-abb3-b5065fc8a22a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.box_links
+    - field.storage.block_content.field_link
+id: block_content.box_links.field_link
+field_name: field_link
+entity_type: block_content
+bundle: box_links
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: excluded_content_types
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

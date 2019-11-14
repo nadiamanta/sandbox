@@ -1,0 +1,8 @@
+uuid: b747c9b3-f5e7-4492-888a-bf7bad2efe21
+langcode: en
+status: true
+dependencies: {  }
+id: slide
+label: Slide
+revision: 0
+description: ''

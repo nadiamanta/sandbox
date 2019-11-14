@@ -1,0 +1,22 @@
+uuid: 9c840081-1131-4009-9e3a-7affc780470a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slide
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.slide.body
+field_name: body
+entity_type: block_content
+bundle: slide
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

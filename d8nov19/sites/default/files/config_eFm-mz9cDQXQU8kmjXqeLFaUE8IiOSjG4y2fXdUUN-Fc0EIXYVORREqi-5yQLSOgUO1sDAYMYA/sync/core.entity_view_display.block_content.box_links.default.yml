@@ -1,0 +1,31 @@
+uuid: 1f950929-12cd-4160-b216-a2ee21bee872
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.box_links
+    - field.field.block_content.box_links.body
+    - field.field.block_content.box_links.field_link
+  module:
+    - text
+id: block_content.box_links.default
+targetEntityType: block_content
+bundle: box_links
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_link:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

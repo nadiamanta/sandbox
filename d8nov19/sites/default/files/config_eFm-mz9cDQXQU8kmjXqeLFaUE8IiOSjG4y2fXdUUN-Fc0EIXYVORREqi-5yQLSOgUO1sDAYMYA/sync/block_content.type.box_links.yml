@@ -1,0 +1,8 @@
+uuid: 9eb2ffbf-195b-4f63-93ed-96d50e694114
+langcode: en
+status: true
+dependencies: {  }
+id: box_links
+label: 'Box links'
+revision: 0
+description: ''

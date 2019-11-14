@@ -1,0 +1,24 @@
+uuid: 0d342580-5b26-435c-8f4d-00202cfa5245
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.feed.field_feed
+    - paragraphs.paragraphs_type.feed
+id: paragraph.feed.default
+targetEntityType: paragraph
+bundle: feed
+mode: default
+content:
+  field_feed:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true

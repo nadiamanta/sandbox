@@ -1,0 +1,21 @@
+uuid: 3ba82d3b-b574-4df8-9921-92eef02a9ffd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_feed
+    - paragraphs.paragraphs_type.feed
+id: paragraph.feed.field_feed
+field_name: field_feed
+entity_type: paragraph
+bundle: feed
+label: Feed
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings: {  }
+field_type: entity_reference
