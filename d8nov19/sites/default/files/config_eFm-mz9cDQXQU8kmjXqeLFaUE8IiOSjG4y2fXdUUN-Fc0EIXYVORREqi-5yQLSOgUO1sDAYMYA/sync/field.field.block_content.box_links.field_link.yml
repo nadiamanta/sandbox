@@ -9,7 +9,7 @@ id: block_content.box_links.field_link
 field_name: field_link
 entity_type: block_content
 bundle: box_links
-label: Link
+label: 'Link er'
 description: ''
 required: false
 translatable: false

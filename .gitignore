@@ -18,6 +18,7 @@
 */web/themes/contrib/
 */web/profiles/contrib/
 */web/libraries/
+/*/modules/contrib/
 
 # Ignore sensitive information
 /web/sites/*/settings.php
@@ -25,6 +26,7 @@
 
 # Ignore Drupal's file directory
 /web/sites/*/files/
+/*/sites/default/files/
 
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest

@@ -9,7 +9,14 @@
         "drupal/paragraphs": "^1.10",
         "drupal/admin_toolbar": "^2.0",
         "drupal/module_filter": "^3.1",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "drupal/field_group": "^3.0",
+        "drupal/bricks": "^1.6",
+        "drupal/layout_builder_restrictions": "^2.2",
+        "drupal/block_blacklist": "^1.0",
+        "drupal/bootstrap_kit": "^4.2",
+        "drupal/bootstrap_barrio": "^4.22",
+        "drupal/eck": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.7"
