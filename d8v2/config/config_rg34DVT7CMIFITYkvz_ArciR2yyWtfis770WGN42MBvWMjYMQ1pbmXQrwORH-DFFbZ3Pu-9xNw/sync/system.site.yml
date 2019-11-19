@@ -1,0 +1,14 @@
+uuid: 3d1c8db4-aa1c-4a77-8126-93d0d8ef6294
+name: 'D8 sandbox'
+mail: nadia@mantaraymedia.co.uk
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
