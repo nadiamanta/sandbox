@@ -1,0 +1,31 @@
+name: sandbox3
+recipe: drupal8
+
+config:
+  php: 7.2
+  via: nginx
+  webroot: .
+  xdebug: false
+
+services:
+  database:
+    type: mariadb
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+  node:
+    type: node:11
+    globals:
+      gulp-cli: latest
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  gulp:
+    service: node
+
+events:
+  post-start:
+    - appserver: cd $LANDO_MOUNT && composer install
