@@ -431,6 +431,7 @@
 .ui-autocomplete {
   border: 1px solid #ccc;
   background: #fff;
+  z-index: 2000;
 }
 
 /* Suggestion list */

@@ -6,3 +6,5 @@
 #page .ui-widget {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.ui-autocomplete { z-index: 2000; }

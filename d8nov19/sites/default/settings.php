@@ -251,7 +251,8 @@ $databases = [];
  *   ];
  * @endcode
  */
-$config_directories = [];
+ $config_directories = [];
+ $config_directories['sync'] = '../config/sync';
 
 /**
  * Settings:
@@ -787,4 +788,4 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
-$config_directories['sync'] = 'sites/default/files/config_eFm-mz9cDQXQU8kmjXqeLFaUE8IiOSjG4y2fXdUUN-Fc0EIXYVORREqi-5yQLSOgUO1sDAYMYA/sync';
+//$config_directories['sync'] = 'sites/default/files/config_eFm-mz9cDQXQU8kmjXqeLFaUE8IiOSjG4y2fXdUUN-Fc0EIXYVORREqi-5yQLSOgUO1sDAYMYA/sync';
