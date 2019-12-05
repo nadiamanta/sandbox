@@ -12,7 +12,10 @@
         "drupal/paragraphs": "^1.10",
         "drupal/entity_reference_layout": "^1.0",
         "drupal/backup_migrate": "^4.0",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "drupal/entity_usage": "^2.0",
+        "drupal/image_widget_crop": "^2.2",
+        "drupal/viewfield": "^3.0"
     },
     "replace": {
         "drupal/core": "^8.7"

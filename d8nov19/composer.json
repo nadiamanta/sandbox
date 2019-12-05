@@ -16,9 +16,11 @@
         "drupal/block_blacklist": "^1.0",
         "drupal/bootstrap_kit": "^4.2",
         "drupal/bootstrap_barrio": "^4.22",
-        "drupal/eck": "^1.0",
+        "drupal/eck": "^1.0@alpha",
         "drupal/inline_entity_form": "^1.0",
-        "symfony/dependency-injection": "3.4.26"
+        "symfony/dependency-injection": "3.4.26",
+        "drupal/tweme": "^4.1",
+        "drupal/backup_migrate": "^4.0"
     },
     "replace": {
         "drupal/core": "^8.7"
